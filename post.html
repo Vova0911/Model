@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1755867943695"></script>
+		<script type="module" crossorigin="" src="./js/marquee.min.js?v=1755867943695"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1755867943695">
+		<link rel="stylesheet" crossorigin="" href="./css/marquee.min.css?v=1755867943695">
+		<link rel="stylesheet" crossorigin="" href="./css/post.min.css?v=1755867943695">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<p class="header__logo">ModelConnect Miami</p>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="index.html" class="menu__link menu__link--active">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="reg.html" class="menu__link">Region</a>
+									</li>
+									<li class="menu__item">
+										<a href="categ.html" class="menu__link">Category</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Individual profile</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a href="#" data-fls-button="" class="header__button button button--lite">Let’s talk</a>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__picture">
+							<picture>
+								<img class="hero__image" alt="Image" src="./assets/img/models/01.webp">
+							</picture>
+						</div>
+						<div data-fls-blockhead="" class="hero__blockhead blockhead">
+							<div class="blockhead__content">
+								<h1 class="blockhead__title blockhead__title--scale">Anna is a photographer</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="model">
+					<div class="model__container">
+						<div class="model__images">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/agency/01-600.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/agency/01.webp">
+							</picture>
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/agency/01-600.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/agency/01.webp">
+							</picture>
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/agency/01-600.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/agency/01.webp">
+							</picture>
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/agency/01-600.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/agency/01.webp">
+							</picture>
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/agency/01-600.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/agency/01.webp">
+							</picture>
+						</div>
+						<div class="model__info">
+							<div class="model__content">
+								<h2>Information</h2>
+								<p>
+									<span class="model__label">Name:</span>
+									Anna Ivanova
+								</p>
+								<p>
+									<span class="model__label">Age:</span>
+									24
+								</p>
+								<p>
+									<span class="model__label">City:</span>
+									Hallandale Beach
+								</p>
+								<p>
+									<span class="model__label">Heading:</span>
+									Photographer
+								</p>
+								<h2 class="model__title">Description</h2>
+								<p class="model__text">
+									I have been involved in photography for over 5 years. I have participated in fashion shows,
+                        magazine shoots and advertising campaigns. I am open to new projects and collaborations.
+								</p>
+								<h2 class="model__label">Contacts</h2>
+								<div class="model__contact">
+									<p>Email: example@mail.com</p>
+									<p>Telephone: +7 (999) 123-45-67</p>
+								</div>
+								<button class="model__btn button button--lite" type="button">Contact</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="about-module">
+					<div class="about-module__header">
+						<div class="about-module__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
+								<img class="about-module__image" alt="Arik" src="./assets/img/arik.webp">
+							</picture>
+						</div>
+						<div data-fls-marquee="" data-fls-marquee-speed="200" class="about-module__name name-about">
+							<div class="name-about__item">
+								ModelConnect
+								<span>Miami</span>
+							</div>
+							<div class="name-about__item">
+								ModelConnect
+								<span>Miami</span>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>

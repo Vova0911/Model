@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1755867943693"></script>
+		<script type="module" crossorigin="" src="./js/marquee.min.js?v=1755867943693"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1755867943693">
+		<link rel="stylesheet" crossorigin="" href="./css/marquee.min.css?v=1755867943693">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755867943693">
+		<link rel="stylesheet" crossorigin="" href="./css/skill.min.css?v=1755867943693">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<p class="header__logo">ModelConnect Miami</p>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="index.html" class="menu__link menu__link--active">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="reg.html" class="menu__link">Region</a>
+									</li>
+									<li class="menu__item">
+										<a href="categ.html" class="menu__link">Category</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Individual profile</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a href="#" data-fls-button="" class="header__button button button--lite">Let’s talk</a>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
+								<img class="hero__image" alt="Image" src="./assets/img/arik.webp">
+							</picture>
+						</div>
+						<div data-fls-blockhead="" class="hero__blockhead blockhead">
+							<h1 class="blockhead__title">
+								ModelConnect Miami
+								<span>fresh profiles</span>
+							</h1>
+							<div class="blockhead__text blockhead__text--size-24">
+								<p>
+									Premium web design, development, and SEO services to help your business stand out.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="page__clients clients">
+					<ul class="clients__container">
+						<li class="clients__item">
+							<img src="./assets/img/clients/01.svg" alt="Image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/02.svg" alt="Image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/03.svg" alt="Image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/04.svg" alt="Image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/05.svg" alt="Image">
+						</li>
+						<li class="clients__item">
+							<img src="./assets/img/clients/06.svg" alt="Image">
+						</li>
+					</ul>
+				</div>
+				<div class="page__skills skills">
+					<div class="skills__container">
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Photographer</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/01.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Miami Beach</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Photographer</a>
+							</h4>
+							<p class="skill__text">Vlad</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/02.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">New York</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Models</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/03.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Chicago</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Models</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/04.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Houston</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Stylists</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/05.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Phoenix</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Stylists</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/06.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Philadelphia</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Director</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/07.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">San Antonio</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Director</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/08.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">San Diego</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Photographer</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/01.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Miami Beach</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Photographer</a>
+							</h4>
+							<p class="skill__text">Vlad</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/02.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">New York</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Models</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/03.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Chicago</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Models</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/04.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Houston</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Stylists</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/05.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Phoenix</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Stylists</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/06.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">Philadelphia</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Director</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/07.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">San Antonio</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+						<article data-fls-skill="" class="skill">
+							<h4 class="skill__title">
+								<a href="#" class="skill__link-title">Director</a>
+							</h4>
+							<p class="skill__text">Angelina</p>
+							<picture>
+								<img class="skill__image" alt="Image" src="./assets/img/models/08.webp">
+							</picture>
+							<div class="skill__content">
+								<p class="skill__location">San Diego</p>
+								<time class="skill__time">09.09.2025, 19:11</time>
+								<a href="post.html" target="_blank" data-fls-button="" class="button button--text button--icon-arrow button--arrow-ru">About</a>
+							</div>
+						</article>
+					</div>
+				</div>
+				<section class="about-module">
+					<div class="about-module__header">
+						<div class="about-module__picture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp" type="image/webp">
+								<img class="about-module__image" alt="Arik" src="./assets/img/arik.webp">
+							</picture>
+						</div>
+						<div data-fls-marquee="" data-fls-marquee-speed="200" class="about-module__name name-about">
+							<div class="name-about__item">
+								ModelConnect
+								<span>Miami</span>
+							</div>
+							<div class="name-about__item">
+								ModelConnect
+								<span>Miami</span>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>
